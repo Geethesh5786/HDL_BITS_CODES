@@ -4,8 +4,6 @@ module top_module(
     input sub,
     output [31:0] result
 );
-	//An XOR gate can also be viewed as a programmable inverter, where one input controls whether
-    //the other should be inverted. 
     
     wire wire1;
     wire [31:0]b_xor;
