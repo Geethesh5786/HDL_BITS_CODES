@@ -1,6 +1,6 @@
 module top_module( 
-    input a, 
-    input b, 
+    input x, 
+    input y, 
     output out );
-    assign out = ~(a^b); 
+    assign out = ~(x^y); 
 endmodule
