@@ -1,12 +1,12 @@
 module top_module ( 
-    input a, 
-    input b, 
-    input c,
-    input d,
-    output out1,
-    output out2
+    input p, 
+    input q, 
+    input r,
+    input s,
+    output o1,
+    output o2
 );
-    //connect module by position
-    mod_a inst_1(out1,out2,a,b,c,d);
+    
+    mod_a inst_1(o1,o2,p,q,r,s);
 
 endmodule
