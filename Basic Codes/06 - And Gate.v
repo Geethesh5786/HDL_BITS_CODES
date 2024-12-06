@@ -1,8 +1,8 @@
 module top_module( 
-    input a, 
-    input b, 
+    input x, 
+    input y, 
     output out );
 	
-    assign out = a & b;	// & : Bit-wise and operator
+    assign out = x & y;
     
 endmodule
