@@ -1,7 +1,7 @@
-module top_module( input a,b,c,output w,x,y,z );
+module top_module( input a,b,c,output k,l,m,n );
     
-    assign w = a; //assign statements are executed in parallel
-    assign x = b;
-    assign y = b;
-    assign z = c;
+    assign k = a; 
+    assign l = b;
+    assign m = b;
+    assign n = c;
 endmodule
