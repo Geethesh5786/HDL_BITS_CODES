@@ -1,3 +1,3 @@
 module top_module(output zero);
-	assign zero = 0;
+       assign zero = 0;
 endmodule
